@@ -1,4 +1,4 @@
- import cartIcon from '../assets/cart.svg'; // Asegúrate de que la ruta sea correcta
+ import cartIcon from '../assets/cart.svg';  
 
 const CartWidget = () => {
     return (
