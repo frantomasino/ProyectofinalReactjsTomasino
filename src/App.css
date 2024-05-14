@@ -1,0 +1,73 @@
+/* App.css */
+.app {
+  text-align: center;
+  height: 200px;  
+}
+
+.title {
+  margin-bottom: 20px;  
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.logo h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 15rem;
+  margin: 20;  
+  padding: 20; 
+}
+
+.nav-item a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cart-widget-container {
+  margin-right: 50px; 
+}
+
+.cart-icon {
+  width: 200px;
+  height: 30px;
+}
+
+.item-list-container {
+  margin-top: 5rem;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
