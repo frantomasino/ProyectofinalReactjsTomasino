@@ -9,6 +9,8 @@ const Navbar = () => {
                     <li className="nav-item"><a href="#">Inicio</a></li>
                     <li className="nav-item"><a href="#">Productos</a></li>
                     <li className="nav-item"><a href="#">Quienes Somos</a></li>
+                    <li className="nav-item"><a href="#">Contacto</a></li>
+
                 </ul>
                 <div className="cart-widget-container">
                     <CartWidget />
