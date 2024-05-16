@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="app">
       <div>
-        <h1>Todo Mates</h1>
+        <h1>Todo Palos</h1>
       </div>
       <Navbar />
-      <ItemListContainer greeting="Bienvenidos a Todo Mates" />
+      <ItemListContainer greeting="Bienvenidos a Todo Palos" />
     </div>
   );
 }
