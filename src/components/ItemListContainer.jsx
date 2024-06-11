@@ -54,7 +54,7 @@ const products = [
   { id: 23, category: 'accesorios', name: 'Guante Grays', price: 47.500, stock: 40, image: guantes3Image },
   { id: 24, category: 'accesorios', name: 'Guante Adidas', price: 46.300, stock: 40, image: guantes4Image },
 
-];
+]
 
 const ItemListContainer = () => {
  

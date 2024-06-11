@@ -2,18 +2,17 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #282c34;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #343a40;
+  padding: 1rem;
 }
 
 .navbar-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .navbar-title a {
-  color: #61dafb;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -21,23 +20,13 @@ nav {
   list-style: none;
   display: flex;
   justify-content: center;
-  flex: 1;
+  flex: 1; 
   margin: 0;
   padding: 0;
 }
 
 .navbar-links li {
-  margin: 0 1.5rem;
-}
-
-.navbar-links li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.navbar-links li a:hover {
-  color: #61dafb;
+  margin: 0 1rem;
 }
 
 .navbar-cart {
@@ -45,7 +34,4 @@ nav {
   align-items: center;
 }
 
-.cart-widget img {
-  width: 28px;
-  height: 28px;
-}
+
