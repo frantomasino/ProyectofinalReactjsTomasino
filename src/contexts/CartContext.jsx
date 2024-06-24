@@ -1,36 +1,45 @@
-import React, { createContext, useState, useContext } from 'react';
+// src/contexts/CartContext.jsx
+import React, { createContext, useContext, useState } from 'react';
 
 const CartContext = createContext();
-
-export const useCart = () => {
-  return useContext(CartContext);
-};
 
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
 
-  const addItemToCart = (product, quantity) => {
-    const itemInCart = cart.find(item => item.id === product.id);
-    if (itemInCart) {
-      setCart(cart.map(item =>
-        item.id === product.id ? { ...item, quantity: item.quantity + quantity } : item
-      ));
+  const addItemToCart = (item, quantity) => {
+    const existingItem = cart.find(cartItem => cartItem.id === item.id);
+
+    if (existingItem) {
+      const updatedCart = cart.map(cartItem =>
+        cartItem.id === item.id ? { ...cartItem, quantity: cartItem.quantity + quantity } : cartItem
+      );
+      setCart(updatedCart);
     } else {
-      setCart([...cart, { ...product, quantity }]);
+      setCart([...cart, { ...item, quantity }]);
     }
   };
 
-  const removeItemFromCart = (id) => {
-    setCart(cart.filter(item => item.id !== id));
+  const removeItemFromCart = (itemId) => {
+    const updatedCart = cart.filter(item => item.id !== itemId);
+    setCart(updatedCart);
   };
 
   const clearCart = () => {
     setCart([]);
   };
 
+  const updateStock = (itemId, quantity) => {
+    // Lógica para actualizar el stock en la base de datos o en el contexto
+    console.log(`Actualizando stock de ${itemId} a ${quantity}`);
+  };
+
   return (
-    <CartContext.Provider value={{ cart, addItemToCart, removeItemFromCart, clearCart }}>
+    <CartContext.Provider value={{ cart, addItemToCart, removeItemFromCart, clearCart, updateStock }}>
       {children}
     </CartContext.Provider>
   );
+};
+
+export const useCart = () => {
+  return useContext(CartContext);
 };

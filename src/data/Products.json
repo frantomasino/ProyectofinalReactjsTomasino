@@ -1,0 +1,230 @@
+[
+  { 
+      "id": "1",
+      "name": "Funda Vlack",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda1.webp?alt=media&token=2cbcbc62-01af-4a75-b88f-46a804888bbb",
+      "price": "194085",
+      "stock": "20",
+      "descripcion": "Funda con múltiples bolsillos para llevar todos tus accesorios. Bolsillo para calzado ventilado.",
+      "category": "fundas"
+  },
+  { 
+      "id": "2",
+      "name": "Canilleras Vlack",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/acccanilleras1.webp?alt=media&token=8bcf6cca-5208-4e3b-a83b-b64c68631b9d",
+      "price": "52350",
+      "stock": "20",
+      "descripcion": "Canilleras anatómicas de alta competencia. El núcleo central en relieve ofrece una máxima protección. Con orificios para ventilación.",
+      "category": "accesorios"
+  },
+  { 
+      "id": "3",
+      "name": "Palo Adidas",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palofibra3.webp?alt=media&token=26885d15-30e2-4149-b775-41aed5d7dedf",
+      "price": "304500",
+      "stock": "20",
+      "descripcion": "Composición: Carbono 90% - Aramida 5%- Fibra de Vidrio 5%",
+      "category": "palos"
+  },
+  { 
+      "id": "4",
+      "name": "Cubre Grip",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/acccubre3.webp?alt=media&token=a312fdb2-f4a8-4a0d-b492-0328ffbf1ca3",
+      "price": "20000",
+      "stock": "20",
+      "descripcion": "Cubrepalos de alta calidad",
+      "category": "accesorios"
+  },
+  { 
+      "id": "5",
+      "name": "Funda Dita",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda6.webp?alt=media&token=83729868-28fd-4e0a-935d-7d43e81c40d1",
+      "price": "96800",
+      "stock": "20",
+      "descripcion": "Funda que contiene un espacio para 4-5 palos y varios bolsillos grandes y chicos para guardar todo tipo de producto que quieras llevar a entrenar o jugar",
+      "category": "fundas"
+  },
+  { 
+      "id": "6",
+      "name": "Palo Malik",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palofibra1.webp?alt=media&token=b5e13902-96d6-4be3-a834-52f79a9a514f",
+      "price": "121100",
+      "stock": "20",
+      "descripcion": "Composición: Carbono 90% - Aramida 5%- Fibra de Vidrio 5%",
+      "category": "palos"
+  },
+  { 
+      "id": "7",
+      "name": "Medias",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/accmedias4.webp?alt=media&token=55369b75-35f7-4488-adc2-1a1a6b319da5",
+      "price": "8800",
+      "stock": "20",
+      "descripcion": "Medias deportivas",
+      "category": "accesorios"
+  },
+  { 
+      "id": "8",
+      "name": "Protector Bucal",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/accprotector5.webp?alt=media&token=c6cda052-8d7c-4d76-92b4-394392e76bbd",
+      "price": "4600",
+      "stock": "20",
+      "descripcion": "Protector bucal",
+      "category": "accesorios"
+  },
+  { 
+      "id": "9",
+      "name": "Silbato",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/accsilbato2.webp?alt=media&token=c97ca57c-698f-415b-aa36-0ada7e571486",
+      "price": "4400",
+      "stock": "10",
+      "descripcion": "Silbato deportivo",
+      "category": "accesorios"
+  },
+  { 
+      "id": "10",
+      "name": "Vincha",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/accvincha6.webp?alt=media&token=548cfe09-0d32-4c8d-a728-a7d1d6e3bbf7",
+      "price": "5500",
+      "stock": "10",
+      "descripcion": "Vincha deportiva",
+      "category": "accesorios"
+  },
+  { 
+      "id": "11",
+      "name": "Palo Vlack",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palofibra2.webp?alt=media&token=34627ae0-171c-4296-91c4-7afaddd17d8f",
+      "price": "304500",
+      "stock": "10",
+      "descripcion": "Palo desarrollado con el objetivo de perfeccionar la arrastrada y el juego aéreo. Sus características principales harán que tus gestos técnicos alcancen su máximo nivel",
+      "category": "palos"
+  },
+  { 
+      "id": "12",
+      "name": "Palo Adidas",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palofibra5.webp?alt=media&token=b94ba830-a6f1-4d78-9b6d-54e3bbbf3240",
+      "price": "281000",
+      "stock": "10",
+      "descripcion": "La curva proporciona un fácil manejo de la bocha, sin comprometer potencia y precisión en los gestos golpeados.",
+      "category": "palos"
+  },
+  { 
+      "id": "13",
+      "name": "Palo Tk",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palofibra4.webp?alt=media&token=ee90848e-4b0e-47fe-8fda-38b1d04bb052",
+      "price": "291900",
+      "stock": "10",
+      "descripcion": "Ideal para control de bocha en dribling, juego aéreo y arrastrada.",
+      "category": "palos"
+  },
+  { 
+      "id": "14",
+      "name": "Palo Brabo",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palofibra6.webp?alt=media&token=56c978f4-fd84-4827-a999-68491ce7d906",
+      "price": "274000",
+      "stock": "10",
+      "descripcion": "Un palo ideal para quienes busquen diseños tradicionales en conjunto con un palo que brinde control y potencia a sus ejecuciones.",
+      "category": "palos"
+  },
+
+  { 
+    "id": "15",
+    "name": "Funda Osaka",
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda2.webp?alt=media&token=a3860d6a-eac3-4946-bcc2-407acad5d26c",
+    "price": "367200",
+    "stock": "10",
+    "descripcion": "Funda maximiza el espacio de almacenamiento. Posee una mochila desmontable.",
+    "category": "fundas"
+},
+
+{ 
+  "id": "16",
+  "name": "Funda Grays",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda5.webp?alt=media&token=0eac866e-8d95-498a-89eb-b7182843ade3",
+  "price": "300600",
+  "stock": "10",
+  "descripcion": "Funda confeccionada con materias de alta calidad para garantizar durabilidad. Bolsillo separado para palos, con capacidad hasta 4 palos.",
+  "category": "fundas"
+},
+
+{ 
+  "id": "17",
+  "name": "Funda Vlack",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda3.webp?alt=media&token=0ccdedcd-2f8d-49f5-abf2-c793e99cfdc1",
+  "price": "11475",
+  "stock": "10",
+  "descripcion": "Funda combina materiales de alta calidad con un diseño práctico pensado especialmente para jugadores jóvenes.",
+  "category": "fundas"
+},
+
+{ 
+  "id": "18",
+  "name": "Funda Malik",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda4.webp?alt=media&token=7b043fb2-81ea-44bf-b244-7cd6d08a680d",
+  "price": "121000",
+  "stock": "10",
+  "descripcion":"Funda tipo mochila, con paneles acolchonados para mayor comodidad. ",
+  "category": "fundas"
+},
+
+{ 
+  "id": "19",
+  "name": "Funda Balling",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda7.webp?alt=media&token=37ce2e14-2904-4a13-af9a-ace5b4c0fa0c",
+  "price": "50100",
+  "stock": "10",
+  "descripcion":"Funda que posee un sistema único de correas ajustables que distribuye el peso del bolso de manera uniforme.",
+  "category": "fundas"
+},
+
+{ 
+  "id": "20",
+  "name": "Funda Adidas",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda8.webp?alt=media&token=08380d95-cef0-4bcd-bc9e-bc51b08806fc",
+  "price": "210500",
+  "stock": "10",
+  "descripcion":  "Múltiples compartimentos separados para ropa, equipo, zapatillas y objetos de valor. Correas acolchadas. Tela repelente al agua.",
+  "category": "fundas"
+},
+
+{ 
+  "id": "21",
+  "name": "Guante Adidas",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/guantes4.webp?alt=media&token=827917d9-08ac-4bdf-8fe8-43b212ebbf90",
+  "price": "46300",
+  "stock": "10",
+  "descripcion": "Aporta un buen agarre del palo junto con una buena protección de los nudillos para la práctica del hockey sobre césped",
+  "category": "accesorios"
+},
+
+{ 
+  "id": "22",
+  "name": "Guante Grays",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/guantes3.webp?alt=media&token=b9c118bf-eda3-4d44-86c1-c8e5c1be4dff",
+  "price": "47500",
+  "stock": "10",
+  "descripcion":  "Brinda mayor destreza y el ajuste del puño a la medida asegura un ajuste cómodo.",
+  "category": "accesorios"
+},
+
+{ 
+  "id": "23",
+  "name": "Palo Malik",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palomadera2.webp?alt=media&token=9b3047a9-fc46-47cc-91b7-55a115de80ed",
+  "price": "40800",
+  "stock": "20",
+  "descripcion":  "Composición: Madera Reforzada - Pintado.",
+  "category": "palos"
+},
+
+{ 
+  "id": "24",
+  "name": "Palo Drial",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palomadera1.webp?alt=media&token=755b2006-4bb4-48e2-964f-cfcb0dc90218",
+  "price": "26300",
+  "stock": "20",
+  "descripcion":  "Composición: 50% Fibra Vidrio y 50% Madera.",
+  "category": "palos"
+}
+
+
+]

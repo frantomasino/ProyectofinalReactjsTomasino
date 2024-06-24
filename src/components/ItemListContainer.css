@@ -1,10 +1,7 @@
+/* src/components/ItemListContainer.css */
+
 .container {
   padding: 20px;
-  max-width: 1200px;
-  margin: 20px auto;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .item-list {
@@ -14,46 +11,36 @@
 }
 
 .item {
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid #ccc;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.2s;
-}
-
-.item:hover {
-  transform: translateY(-5px);
-}
-
-.item img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 15px;
 }
 
 .item h2 {
-  font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #343a40;
 }
 
 .item p {
-  margin-bottom: 10px;
-  color: #6c757d;
+  margin-bottom: 5px;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
 }
 
 .detail-button {
   display: inline-block;
-  padding: 10px 15px;
-  color: white;
   background-color: #007bff;
-  border-radius: 5px;
+  color: #fff;
   text-decoration: none;
-  transition: background-color 0.3s;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .detail-button:hover {
   background-color: #0056b3;
 }
+
