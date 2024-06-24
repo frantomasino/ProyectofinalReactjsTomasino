@@ -19,7 +19,7 @@ const Products = ({ setProducts }) => {
 
     return (
         <div>
-            {/* Renderiza tus productos aquí */}
+            { }
         </div>
     );
 };

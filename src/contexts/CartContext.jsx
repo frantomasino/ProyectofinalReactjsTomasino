@@ -1,4 +1,3 @@
-// src/contexts/CartContext.jsx
 import React, { createContext, useContext, useState } from 'react';
 
 const CartContext = createContext();
@@ -29,7 +28,6 @@ export const CartProvider = ({ children }) => {
   };
 
   const updateStock = (itemId, quantity) => {
-    // Lógica para actualizar el stock en la base de datos o en el contexto
     console.log(`Actualizando stock de ${itemId} a ${quantity}`);
   };
 
