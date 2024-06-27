@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../FirebaseConfig';
-import productsData from '../data/Products.json';  
+import  db  from '../FirebaseConfig';
+import productsData from '../data/Products.json';
 
 const Products = ({ setProducts }) => {
     useEffect(() => {

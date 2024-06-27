@@ -33,7 +33,7 @@ const Checkout = () => {
       {!orderID ? (
         <div>
           {isProcessing ? (
-            <p className="processing-message">Se está generando su orden...</p>
+            <p className="processing-message">Se esta generando su orden...</p>
           ) : (
             <div className="form-container">
               <form onSubmit={handleCheckout}>
@@ -42,8 +42,8 @@ const Checkout = () => {
                   <input type="text" required />
                 </div>
                 <div>
-                  <label>Teléfono:</label>
-                  <input type="text" required />
+                  <label>Telefono:</label>
+                  <input type="number" required />
                 </div>
                 <div>
                   <label>Email:</label>
@@ -57,7 +57,7 @@ const Checkout = () => {
       ) : (
         <div className="order-confirmation">
           <h1>Gracias por tu compra</h1>
-          <p>Tu número de guía: <strong>{orderID}</strong></p>
+          <p>Tu numero de guía: <strong>{orderID}</strong></p>
           <button onClick={handleBackToHome} className="home-button">Volver al inicio</button>
         </div>
       )}
