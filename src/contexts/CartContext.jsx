@@ -12,11 +12,32 @@ export const CartProvider = ({ children }) => {
     const existingItem = cart.find(cartItem => cartItem.id === item.id);
 
     if (existingItem) {
+      const newQuantity = existingItem.quantity + quantity;
+      if (newQuantity > item.stock) {
+        Swal.fire({
+          position: "top-end",
+          icon: "error",
+          title: `No puedes agregar más de ${item.stock} unidades de este producto`,
+          showConfirmButton: false,
+          timer: 1000
+        });
+        return;
+      }
       const updatedCart = cart.map(cartItem =>
-        cartItem.id === item.id ? { ...cartItem, quantity: cartItem.quantity + quantity } : cartItem
+        cartItem.id === item.id ? { ...cartItem, quantity: newQuantity } : cartItem
       );
       setCart(updatedCart);
     } else {
+      if (quantity > item.stock) {
+        Swal.fire({
+          position: "top-end",
+          icon: "error",
+          title: `No puedes agregar más de ${item.stock} unidades de este producto`,
+          showConfirmButton: false,
+          timer: 1000
+        });
+        return;
+      }
       setCart([...cart, { ...item, quantity }]);
     }
 
@@ -39,9 +60,22 @@ export const CartProvider = ({ children }) => {
   };
 
   const incrementItemQuantity = (itemId) => {
-    const updatedCart = cart.map(cartItem =>
-      cartItem.id === itemId ? { ...cartItem, quantity: cartItem.quantity + 1 } : cartItem
-    );
+    const updatedCart = cart.map(cartItem => {
+      if (cartItem.id === itemId) {
+        if (cartItem.quantity >= cartItem.stock) {
+          Swal.fire({
+            position: "top-end",
+            icon: "error",
+            title: `No puedes agregar mas de ${cartItem.stock} unidades de este producto`,
+            showConfirmButton: false,
+            timer: 1000
+          });
+          return cartItem;
+        }
+        return { ...cartItem, quantity: cartItem.quantity + 1 };
+      }
+      return cartItem;
+    });
     setCart(updatedCart);
   };
 
@@ -58,7 +92,6 @@ export const CartProvider = ({ children }) => {
       await updateDoc(itemRef, {
         stock: increment(-quantity)
       });
-      console.log(`Stock actualizado para el producto ${itemId} en ${quantity}`);
     } catch (error) {
       console.error("Error al actualizar el stock: ", error);
     }

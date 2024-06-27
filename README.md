@@ -47,15 +47,26 @@ Este es un proyecto de ecommerce desarrollado con ReactJS. Permite a los usuario
 
 ## Estructura del Proyecto
 
-src/
+ssrc/
 ├── components/
 │   ├── CartView.jsx
+│   ├── CartView.css
 │   ├── ItemCount.jsx
+│   ├── ItemCount.css
 │   ├── ItemDetailContainer.jsx
+│   ├── ItemDetailContainer.css
 │   ├── ItemListContainer.jsx
+│   ├── ItemListContainer.css
 │   ├── Navbar.jsx
-│   └── ...
+│   ├── Navbar.css
+│   ├── Checkout.jsx
+│   ├── Checkout.css
+│   ├── CartWidget.jsx
+│   ├── CartWidget.css
+│   └── Product.jsx
 ├── contexts/
 │   ├── CartContext.jsx
-├── FirebaseConfing
- 
+├── app.css
+├── app.jsx
+├── FirebaseConfig.js
+

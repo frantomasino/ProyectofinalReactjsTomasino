@@ -4,7 +4,7 @@
       "name": "Funda Vlack",
       "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/funda1.webp?alt=media&token=2cbcbc62-01af-4a75-b88f-46a804888bbb",
       "price": "194085",
-      "stock": "20",
+      "stock": "15",
       "descripcion": "Funda con múltiples bolsillos para llevar todos tus accesorios. Bolsillo para calzado ventilado.",
       "category": "fundas"
   },
@@ -13,7 +13,7 @@
       "name": "Canilleras Vlack",
       "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/acccanilleras1.webp?alt=media&token=8bcf6cca-5208-4e3b-a83b-b64c68631b9d",
       "price": "52350",
-      "stock": "20",
+      "stock": "5",
       "descripcion": "Canilleras anatómicas de alta competencia. El núcleo central en relieve ofrece una máxima protección. Con orificios para ventilación.",
       "category": "accesorios"
   },
@@ -22,7 +22,7 @@
       "name": "Palo Adidas",
       "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/palofibra3.webp?alt=media&token=26885d15-30e2-4149-b775-41aed5d7dedf",
       "price": "304500",
-      "stock": "20",
+      "stock": "5",
       "descripcion": "Composición: Carbono 90% - Aramida 5%- Fibra de Vidrio 5%",
       "category": "palos"
   },
