@@ -15,6 +15,16 @@ const Checkout = () => {
       const generatedOrderID = Math.floor(Math.random() * 1000000);
       setOrderID(generatedOrderID);
 
+      // Aquí guardas el pedido en el historial (simulado)
+      const newOrder = {
+        id: generatedOrderID,
+        date: new Date().toLocaleDateString(),
+        total: cart.reduce((total, item) => total + item.price * item.quantity, 0)
+      };
+
+      // Simplemente imprime el pedido nuevo, deberás guardarlo en alguna base de datos o almacenamiento persistente
+      console.log('Nuevo pedido:', newOrder);
+
       cart.forEach(item => {
         updateStock(item.id, 1); 
       });
@@ -33,7 +43,7 @@ const Checkout = () => {
       {!orderID ? (
         <div>
           {isProcessing ? (
-            <p className="processing-message">Se esta generando su orden...</p>
+            <p className="processing-message">Se está generando su orden...</p>
           ) : (
             <div className="form-container">
               <form onSubmit={handleCheckout}>
@@ -42,7 +52,7 @@ const Checkout = () => {
                   <input type="text" required />
                 </div>
                 <div>
-                  <label>Telefono:</label>
+                  <label>Teléfono:</label>
                   <input type="number" required />
                 </div>
                 <div>
@@ -57,7 +67,7 @@ const Checkout = () => {
       ) : (
         <div className="order-confirmation">
           <h1>Gracias por tu compra</h1>
-          <p>Tu numero de guía: <strong>{orderID}</strong></p>
+          <p>Tu número de guía: <strong>{orderID}</strong></p>
           <button onClick={handleBackToHome} className="home-button">Volver al inicio</button>
         </div>
       )}

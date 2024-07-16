@@ -1,10 +1,17 @@
-.cart-widget {
-  position: relative;
+/* CartWidget.css */
+.widget-container {
   display: flex;
   align-items: center;
 }
 
-.cart-widget img {
+.cart-widget, .user-widget {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Espacio entre los íconos */
+}
+
+.cart-widget img, .user-widget img {
   width: 24px;
   height: 24px;
 }
@@ -25,8 +32,3 @@
   align-items: center;
   justify-content: center;
 }
-
-
-
-
-

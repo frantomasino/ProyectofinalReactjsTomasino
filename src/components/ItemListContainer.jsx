@@ -4,20 +4,32 @@ import './ItemListContainer.css';
 
 const ItemListContainer = ({ products }) => {
   const { id } = useParams();
-  const filteredProducts = id ? products.filter(product => product.category === id) : products;
-
   const [showDescription, setShowDescription] = useState(false);
-
-  console.log('Productos completos:', products);
-  console.log('Productos filtrados:', filteredProducts);
+  const [searchTerm, setSearchTerm] = useState('');
+  const filteredProducts = products.filter(product =>
+    product.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+    (id ? product.category === id : true)
+  );
 
   const toggleDescription = () => {
     setShowDescription(!showDescription);
   };
 
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
   return (
     <div className="container">
       <h1>{id ? `Productos para ${id}` : 'Lista de Productos'}</h1>
+      <div className="search-bar">
+        <input
+          type="text"
+          placeholder="Búsqueda..."
+          value={searchTerm}
+          onChange={handleSearch}
+        />
+      </div>
       <div className="item-list">
         {filteredProducts.map(product => (
           <div key={product.id} className="item">
