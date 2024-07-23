@@ -8,7 +8,7 @@ const ItemListContainer = ({ products }) => {
   const { addItemToCart } = useCart();
   const [showDescription, setShowDescription] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
-  const [priceFilter, setPriceFilter] = useState('todos'); // Estado para el filtro de precio
+  const [priceFilter, setPriceFilter] = useState('todos');
 
   const filteredProducts = products.filter(product => {
     const productPrice = parseFloat(product.price.replace(',', ''));
