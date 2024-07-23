@@ -7,6 +7,7 @@ const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
+  const [orderHistory, setOrderHistory] = useState([]);  // Estado para almacenar el historial de pedidos
 
   const addItemToCart = (item, quantity) => {
     const existingItem = cart.find(cartItem => cartItem.id === item.id);
@@ -97,8 +98,12 @@ export const CartProvider = ({ children }) => {
     }
   };
 
+  const addOrderToHistory = (newOrder) => {
+    setOrderHistory([...orderHistory, newOrder]);
+  };
+
   return (
-    <CartContext.Provider value={{ cart, addItemToCart, removeItemFromCart, incrementItemQuantity, decrementItemQuantity, clearCart, updateStock }}>
+    <CartContext.Provider value={{ cart, addItemToCart, removeItemFromCart, incrementItemQuantity, decrementItemQuantity, clearCart, updateStock, orderHistory, addOrderToHistory }}>
       {children}
     </CartContext.Provider>
   );

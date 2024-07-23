@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './ItemListContainer.css';
+import { useCart } from '../contexts/CartContext';
 
 const ItemListContainer = ({ products }) => {
   const { id } = useParams();
+  const { addItemToCart } = useCart();
   const [showDescription, setShowDescription] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const filteredProducts = products.filter(product =>
@@ -41,6 +43,7 @@ const ItemListContainer = ({ products }) => {
             <Link to={`/item/${product.id}`} className="detail-button" onClick={toggleDescription}>
               {showDescription ? 'Ocultar Detalle' : 'Ver Detalle'}
             </Link>
+            <button className="add-to-cart-button" onClick={() => addItemToCart(product, 1)}>Agregar al carrito</button>
           </div>
         ))}
       </div>
