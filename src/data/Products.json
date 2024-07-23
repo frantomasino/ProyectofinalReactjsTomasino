@@ -224,7 +224,46 @@
   "stock": "20",
   "descripcion":  "Composición: 50% Fibra Vidrio y 50% Madera.",
   "category": "palos"
-}
+},
 
+{ 
+  "id": "25",
+  "name": "Zapatillas Adidas",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/zapatillas.webp?alt=media&token=45d77845-4d9a-439c-978a-f93b768e4254",
+  "price": "295000",
+  "stock": "20",
+  "descripcion":  "Zapatillas de alto rendimiento",
+  "category": "accesorios"
+},
+
+{ 
+  "id": "26",
+  "name": "Guantes  Oregon",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/guantes1.webp?alt=media&token=268da183-bf4a-48d3-9121-e9d69584b7c2",
+  "price": "30000",
+  "stock": "10",
+  "descripcion":  "Guantes de alto rendimiento y destreza",
+  "category": "accesorios"
+},
+
+{ 
+  "id": "27",
+  "name": "Guantes  Vlack",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/guantes2.webp?alt=media&token=6d7b0e5a-b135-4e79-92e6-ea150c68346c",
+  "price": "25000",
+  "stock": "105",
+  "descripcion":  "Guantes de alto rendimiento",
+  "category": "accesorios"
+},
+
+{ 
+  "id": "28",
+  "name": "Remera TK ",
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/ecommerce-reactjs-350aa.appspot.com/o/remera.webp?alt=media&token=5f0eae27-c08e-42ef-986e-935084b0c5ef",
+  "price": "50000",
+  "stock": "10",
+  "descripcion":  "Remera de Arquero ",
+  "category": "accesorios"
+}
 
 ]

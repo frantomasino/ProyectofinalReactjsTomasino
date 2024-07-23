@@ -75,19 +75,53 @@
 .add-to-cart-button:hover {
   background-color: #218838;
 }
-.filters {
+ 
+
+
+
+ .search-filters-container {
   display: flex;
-  gap: 15px; 
-  margin-bottom: 20px;
-  flex-wrap: wrap; 
+  align-items: center;  
+  margin-bottom: 20px;  
 }
 
-.filters input,
-.filters select {
-  padding: 12px 15px; 
-  font-size: 16px;
-  border: 2px solid ; 
-  border-radius: 8px; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  transition: border-color 0.3s, box-shadow 0.3s; 
+ .search-bar {
+  flex: 1; 
+  margin-right: 50px;  
 }
+
+.search-bar input {
+  width: 100%;  
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+ .filters {
+  display: flex;
+  flex-direction: row;  
+  gap: 50px; 
+  align-items: center;
+  flex-shrink: 0; 
+}
+
+.filters select {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 250px;  
+}
+
+ 
