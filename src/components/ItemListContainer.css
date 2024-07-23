@@ -75,3 +75,19 @@
 .add-to-cart-button:hover {
   background-color: #218838;
 }
+.filters {
+  display: flex;
+  gap: 15px; 
+  margin-bottom: 20px;
+  flex-wrap: wrap; 
+}
+
+.filters input,
+.filters select {
+  padding: 12px 15px; 
+  font-size: 16px;
+  border: 2px solid ; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: border-color 0.3s, box-shadow 0.3s; 
+}

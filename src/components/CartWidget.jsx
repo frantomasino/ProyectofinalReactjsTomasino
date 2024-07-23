@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../contexts/CartContext';
 import './CartWidget.css';
 import cartIcon from '../assets/cart-icon.svg';
-import userIcon from '../assets/UserIcon.svg'; // Importa el ícono de usuario
+import userIcon from '../assets/UserIcon.svg'; 
 
 const CartWidget = () => {
   const { cart } = useCart();

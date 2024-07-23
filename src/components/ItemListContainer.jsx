@@ -31,7 +31,7 @@ const ItemListContainer = ({ products }) => {
           value={searchTerm}
           onChange={handleSearch}
         />
-      </div>
+      </div>     
       <div className="item-list">
         {filteredProducts.map(product => (
           <div key={product.id} className="item">
